@@ -14,7 +14,7 @@ model = joblib.load(filename)
 
 #st.write(str(model))
                             
-season = st.selectbox('Season (1:spring, 2:summer, 3:fall, 4:wfloater)',["1","2","3","4"])
+season = st.selectbox('Season (1:spring, 2:summer, 3:fall, 4:winter)',["1","2","3","4"])
 
 yr = st.selectbox('Year (0: 2018, 1:2019)',["0","1"])
 
