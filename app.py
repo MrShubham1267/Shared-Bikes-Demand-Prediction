@@ -39,9 +39,9 @@ registered =st.text_input(label='Count of registered users',value=0)
 
 pred = model.predict([[int(season),int(yr),int(mnth),int(weekday),int(weathersit),int(temp),int(atemp),int(hum),int(windspeed),int(casual),int(registered)]])
 
-shu = float(pred)
+shu = int(pred)
 if st.button('Submit'): 
-   st.header('Count of total rental bikes including both casual and registered {}'.format(float(shu)))
+   st.header('Count of total rental bikes including both casual and registered {}'.format(int(shu)))
 
     
          
