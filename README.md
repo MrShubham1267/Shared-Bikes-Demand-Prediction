@@ -8,7 +8,7 @@
  
 ## ⏳ Dataset
 - Download the dataset
-- https://www.kaggle.com/c/shared-bikes-demand-prediction/data
+- https://github.com/MrShubham1267/Shared-Bikes-Demand-Prediction/blob/main/day.csv
 
 ## :desktop_computer:	Installation
 
